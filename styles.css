@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+#activityContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#descriptionsContainer, #stepsContainer {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px;
+    min-height: 300px;
+}
+
+.draggable {
+    padding: 5px;
+    margin: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: move;
+}
+
+.stepBox {
+    height: 50px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+}
+
+.correct {
+    background-color: lightgreen;
+}

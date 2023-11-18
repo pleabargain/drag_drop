@@ -1,0 +1,159 @@
+Create the JS, HTML and CSS files necessary to create a drag and drop activity so users can sort steps
+
+create these files
+index.HTML
+style.CSS
+script.JS
+readme.md
+
+role:
+You are a JS and HTML and CSS developer and you create code
+You specialize in interactive user interfaces for creating drag and drop interfaces
+You specialize in making sorting and ordering interfaces for games
+You have been hired by a company that makes educational software
+
+Create the JS, HTML and CSS files necessary to create a drag and drop activity so users can sort steps
+goal: create a drag and drop activity so users can sort steps 
+Create the JS, HTML and CSS files necessary
+User will be shown text from an ordered array
+
+use these JS arrays
+const conductNegotiations = [
+    {
+        step: 1,
+        description: "Identify and clarify your objectives",
+        note: "Know what you want to achieve from these negotiations."
+    },
+    {
+        step: 2,
+        description: "Research the other party",
+        note: "Understand their needs, strengths, and weaknesses."
+    },
+    {
+        step: 3,
+        description: "Prepare your negotiation strategy",
+        note: "Plan your approach, including your opening offer and concessions you're willing to make."
+    },
+    {
+        step: 4,
+        description: "Set up a meeting",
+        note: "Choose a neutral location that is convenient for both parties."
+    },
+    {
+        step: 5,
+        description: "Build rapport",
+        note: "Start with small talk to establish a positive atmosphere."
+    },
+    {
+        step: 6,
+        description: "Present your case clearly",
+        note: "Explain your position and why it is beneficial for both parties."
+    },
+    {
+        step: 7,
+        description: "Listen actively",
+        note: "Pay close attention to the other party's responses and concerns."
+    },
+    {
+        step: 8,
+        description: "Negotiate towards a win-win solution",
+        note: "Aim for an agreement that benefits both sides."
+    },
+    {
+        step: 9,
+        description: "Handle objections",
+        note: "Be prepared to address and resolve any issues raised by the other party."
+    },
+    {
+        step: 10,
+        description: "Finalize the agreement",
+        note: "Ensure all parties understand and agree to the terms before concluding."
+    },
+    {
+        step: 11,
+        description: "Follow up",
+        note: "Send a summary of the agreement and next steps to all involved parties."
+    }
+];
+
+const makePeanutButterSandwich = [
+    {
+        step: 1,
+        description: "get out bread",
+        note: "Have to get the bread out!"
+    },
+    {
+        step: 2,
+        description: "get out knife or spoon",
+        note: "you could use your fingers of course but a knife or spoon is probably better"
+    },
+    {
+        step: 3,
+        description: "get out peanut butter",
+        note: "crunchy or smooth? your choice"
+    },
+    {
+        step: 4,
+        description: "get out jelly",
+        note: "grape or strawberry? your choice"
+    },
+    {
+        step: 5,
+        description: "get out plate",
+        note: "you could eat it out of the jar but that's not very classy"
+    },
+    {
+        step: 6,
+        description: "get out napkin",
+        note: "you don't want to get peanut butter and jelly on your clothes"
+    },
+    {
+        step: 7,
+        description: "get out glass",
+        note: "you need something to drink with your sandwich"
+    },
+    {
+        step: 8,
+        description: "get out milk",
+        note: "you could use water but milk is better"
+    },
+    {
+        step: 9,
+        description: "prepare sandwich",
+        note: "put peanut butter on one slice of bread and jelly on the other slice of bread"
+    }
+];
+
+
+display:
+create a rolldown that displays available const arrays
+
+User is shown numbered boxes that equals number of steps
+Make the numbered boxes half the size of the screen
+Boxes are laid out sequentially starting with integer 1 at the top on the right side of the screen
+Place a number next to each box 
+<div id="stepsContainer"></div> shows a numbered box for each step
+
+description  field  descriptionsContainer are shown on left side of the screen 
+descriptionsContainer are in random order
+descriptionsContainer are in random order
+
+
+
+
+actions:
+user drags description into numbered box
+if description field came from matching step array then decription field is displayed in the numbered box
+
+if description field step number matches numbered box then numbered box changes color to green
+and
+show field "note" as in the over numbered box
+
+create undo button to undo last step
+make sure the undo button removes the last step
+make sure the undo button is disabled if there are no steps to undo
+
+show text area at the bottom of the screen that shows sucessful steps completed
+show the description and the note to matching step
+
+Create the JS, HTML and CSS files necessary
