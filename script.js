@@ -113,6 +113,50 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     ];
     
+    const getDriversLicense = [
+        {
+            step: 1,
+            description: "Check eligibility requirements",
+            note: "Ensure you meet the age, residency, and other criteria set by your local authority."
+        },
+        {
+            step: 2,
+            description: "Study for the written test",
+            note: "Familiarize yourself with the rules of the road, traffic signals, and safety practices."
+        },
+        {
+            step: 3,
+            description: "Pass the written test",
+            note: "Take the test at your local DMV or equivalent authority to get your learner's permit."
+        },
+        {
+            step: 4,
+            description: "Practice driving",
+            note: "Accumulate experience under the supervision of a licensed adult driver."
+        },
+        {
+            step: 5,
+            description: "Enroll in a driving school",
+            note: "Optional but recommended, especially for new drivers to receive professional training."
+        },
+        {
+            step: 6,
+            description: "Schedule the road test",
+            note: "Once ready, book a driving test appointment with your local driving authority."
+        },
+        {
+            step: 7,
+            description: "Pass the road test",
+            note: "Demonstrate your driving skills, including vehicle control, adherence to rules, and safety practices."
+        },
+        {
+            step: 8,
+            description: "Apply for the driver's license",
+            note: "After passing the road test, complete the necessary paperwork to receive your driver's license."
+        }
+    ];
+    
+
 
     let currentArray = [];
     let stepsOrder = [];
@@ -138,6 +182,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 div.draggable = true;
                 div.textContent = item.description;
                 div.setAttribute('data-step', item.step);
+                div.title = item.note; // Add this line to set the title attribute
+
                 descriptionsContainer.appendChild(div);
             });
 
