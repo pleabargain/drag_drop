@@ -16,6 +16,11 @@ Create the JS, HTML and CSS files necessary to create a drag and drop activity s
 goal: create a drag and drop activity so users can sort steps 
 Create the JS, HTML and CSS files necessary
 User will be shown text from an ordered array
+    <div id="completedSteps"></div>
+All details of the step are included
+each step is numbered in the completedSteps
+each step description is in the completedSteps
+each step note is in the completedSteps
 
 use these JS arrays
 const conductNegotiations = [

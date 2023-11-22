@@ -405,6 +405,36 @@ const makeMashedPotatoes = [
 }];
 
 
+const fillSalesFunnel = [
+  {
+      step: 1,
+      description: "Identify Your Target Audience",
+      note: "Understand who your potential customers are."
+  },
+  {
+      step: 2,
+      description: "Generate Leads",
+      note: "Use marketing strategies to attract potential customers."
+  },
+  {
+      step: 3,
+      description: "Engage with Leads",
+      note: "Interact with leads through emails, social media, or calls."
+  },
+  {
+      step: 4,
+      description: "Convert Leads into Customers",
+      note: "Offer incentives or demonstrate value to persuade leads to purchase."
+  },
+  {
+      step: 5,
+      description: "Nurture Customer Relationships",
+      note: "Provide excellent customer service to encourage repeat business."
+  }
+];
+
+
+
 
 
 
